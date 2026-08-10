@@ -169,7 +169,7 @@ export default function Portfolio() {
             <div className="grid grid-cols-[1fr_auto] items-center gap-4 sm:gap-6 py-8 border-t border-stone-300">
               <div>
                 <a
-                  href="https://amberoat.netlify.app/"
+                  href="https://amber-oat.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-extrabold text-2xl sm:text-3xl hover:opacity-60 transition-opacity underline underline-offset-4"
