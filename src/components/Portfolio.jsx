@@ -57,7 +57,7 @@ export default function Portfolio() {
       <main className="max-w-[1800px] mx-auto px-6 sm:px-10 font-inter">
         <FadeInSection>
           <section className="pt-10">
-            <div className="flex flex-col-reverse sm:flex-row items-center gap-6 sm:gap-10 lg:gap-24 lg:justify-between">
+            <div className="flex flex-col-reverse sm:flex-row items-center gap-6 sm:gap-10 lg:gap-20">
               <h1 className="font-extrabold tracking-tight leading-[0.92] text-5xl sm:text-8xl lg:text-[9rem] break-words text-center sm:text-left">
                 Navneet
                 <br />
