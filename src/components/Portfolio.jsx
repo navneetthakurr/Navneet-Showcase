@@ -58,8 +58,7 @@ export default function Portfolio() {
         <FadeInSection>
           <section className="pt-10">
             <div className="flex flex-col-reverse sm:flex-row items-center gap-6 sm:gap-10 lg:gap-80">
-              <h1 className="font-extrabold tracking-tight leading-[0.92] text-5xl sm:text-8xl lg:text-[9rem] break-words text-center sm:text-left">
-                Navneet
+ <h1 className="font-extrabold tracking-tight leading-[0.92] text-5xl sm:text-8xl lg:text-[9rem] break-words text-center sm:text-left ml-0 sm:ml-8 lg:ml-25">                Navneet
                 <br />
                 Chauhan
               </h1>
