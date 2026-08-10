@@ -103,7 +103,7 @@ export default function Portfolio() {
           </section>
         </FadeInSection>
 
-        <section className="pt-16 pb-24 border-t border-stone-300">
+        <section className="pt-16 pb-24 border-t border-stone-500">
           <FadeInSection>
             <h2 className="font-extrabold tracking-tight text-5xl sm:text-7xl lg:text-8xl mb-12">
               Selected Work
@@ -111,7 +111,7 @@ export default function Portfolio() {
           </FadeInSection>
 
           <FadeInSection>
-            <div className="grid grid-cols-[1fr_auto] items-center gap-4 sm:gap-6 py-8 border-t border-stone-300">
+            <div className="grid grid-cols-[1fr_auto] items-center gap-4 sm:gap-6 py-8 border-t border-stone-500">
               <div>
                 <a
                   href="https://tech-veer.vercel.app/"
@@ -138,7 +138,7 @@ export default function Portfolio() {
           </FadeInSection>
 
           <FadeInSection>
-            <div className="grid grid-cols-[1fr_auto] items-center gap-4 sm:gap-6 py-8 border-t border-stone-300">
+            <div className="grid grid-cols-[1fr_auto] items-center gap-4 sm:gap-6 py-8 border-t border-stone-500">
               <div>
                 <a
                   href="https://event-management-lovat-sigma.vercel.app/"
@@ -165,7 +165,7 @@ export default function Portfolio() {
           </FadeInSection>
 
           <FadeInSection>
-            <div className="grid grid-cols-[1fr_auto] items-center gap-4 sm:gap-6 py-8 border-t border-stone-300">
+            <div className="grid grid-cols-[1fr_auto] items-center gap-4 sm:gap-6 py-8 border-t border-stone-500">
               <div>
                 <a
                   href="https://amber-oat.vercel.app/"
