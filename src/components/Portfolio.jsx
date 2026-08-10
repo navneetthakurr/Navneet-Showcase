@@ -34,7 +34,7 @@ function FadeInSection({ children, className = "" }) {
 
 export default function Portfolio() {
   return (
-    <div className="min-h-screen bg-stone-100 text-neutral-900">
+    <div className="min-h-screen bg-stone-100 text-neutral-900 overflow-x-hidden">
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
         .font-inter { font-family: 'Inter', sans-serif; }
@@ -57,8 +57,8 @@ export default function Portfolio() {
       <main className="max-w-[1800px] mx-auto px-6 sm:px-10 font-inter">
         <FadeInSection>
           <section className="pt-10">
-            <div className="flex items-center gap-10 lg:gap-90 flex-wrap">
-              <h1 className="font-extrabold tracking-tight leading-[0.92] text-6xl sm:text-8xl lg:text-[9rem] break-words">
+            <div className="flex flex-col-reverse sm:flex-row items-center gap-6 sm:gap-10 lg:gap-24 lg:justify-between">
+              <h1 className="font-extrabold tracking-tight leading-[0.92] text-5xl sm:text-8xl lg:text-[9rem] break-words text-center sm:text-left">
                 Navneet
                 <br />
                 Chauhan
@@ -66,11 +66,11 @@ export default function Portfolio() {
               <img
                 src={profileImg}
                 alt="Navneet Chauhan"
-                className="w-40 h-40 sm:w-56 sm:h-56 lg:w-72 lg:h-72 object-cover rounded-full grayscale"
+                className="w-32 h-32 sm:w-56 sm:h-56 lg:w-72 lg:h-72 object-cover rounded-full grayscale shrink-0"
               />
             </div>
 
-            <div className="flex flex-wrap justify-between items-start gap-4 mt-9">
+            <div className="flex flex-wrap justify-center sm:justify-between items-center sm:items-start gap-4 mt-9 text-center sm:text-left">
               <div className="text-lg sm:text-xl space-y-1">
                 <div>Full Stack Developer</div>
                 <div>AI Enthusiast</div>
@@ -112,7 +112,7 @@ export default function Portfolio() {
           </FadeInSection>
 
           <FadeInSection>
-            <div className="grid grid-cols-1 sm:grid-cols-[1fr_auto] items-center gap-6 py-8 border-t border-stone-300">
+            <div className="grid grid-cols-[1fr_auto] items-center gap-4 sm:gap-6 py-8 border-t border-stone-300">
               <div>
                 <div className="font-extrabold text-2xl sm:text-3xl">
                   TechVeer
@@ -127,14 +127,14 @@ export default function Portfolio() {
                   handwritten notes tracking how it all connects.
                 </p>
               </div>
-              <div className="font-extrabold text-5xl sm:text-6xl lg:text-7xl leading-none">
+              <div className="font-extrabold text-3xl sm:text-6xl lg:text-7xl leading-none">
                 01
               </div>
             </div>
           </FadeInSection>
 
           <FadeInSection>
-            <div className="grid grid-cols-1 sm:grid-cols-[1fr_auto] items-center gap-6 py-8 border-t border-stone-300">
+            <div className="grid grid-cols-[1fr_auto] items-center gap-4 sm:gap-6 py-8 border-t border-stone-300">
               <div>
                 <div className="font-extrabold text-2xl sm:text-3xl">
                   Eventora
@@ -149,14 +149,14 @@ export default function Portfolio() {
                   Render.
                 </p>
               </div>
-              <div className="font-extrabold text-5xl sm:text-6xl lg:text-7xl leading-none">
+              <div className="font-extrabold text-3xl sm:text-6xl lg:text-7xl leading-none">
                 02
               </div>
             </div>
           </FadeInSection>
 
           <FadeInSection>
-            <div className="grid grid-cols-1 sm:grid-cols-[1fr_auto] items-center gap-6 py-8 border-t border-stone-300">
+            <div className="grid grid-cols-[1fr_auto] items-center gap-4 sm:gap-6 py-8 border-t border-stone-300">
               <div>
                 <div className="font-extrabold text-2xl sm:text-3xl">
                   Amber &amp; Oat
@@ -171,7 +171,7 @@ export default function Portfolio() {
                   and JavaScript, no frameworks.
                 </p>
               </div>
-              <div className="font-extrabold text-5xl sm:text-6xl lg:text-7xl leading-none">
+              <div className="font-extrabold text-3xl sm:text-6xl lg:text-7xl leading-none">
                 03
               </div>
             </div>
@@ -195,7 +195,7 @@ export default function Portfolio() {
           </FadeInSection>
         </section>
 
-        <footer className="py-10 border-t border-stone-300 flex justify-between items-center text-sm">
+        <footer className="py-10 border-t border-stone-300 flex flex-col sm:flex-row gap-4 justify-between items-center text-sm text-center sm:text-left">
           <div>©2026. All rights reserved.</div>
           <div className="flex gap-5">
             <a href="https://github.com/navneetthakurr" target="_blank" rel="noopener noreferrer" className="font-medium hover:opacity-60 transition-opacity">
