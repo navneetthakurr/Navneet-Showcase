@@ -57,7 +57,7 @@ export default function Portfolio() {
       <main className="max-w-[1800px] mx-auto px-6 sm:px-10 font-inter">
         <FadeInSection>
           <section className="pt-10">
-            <div className="flex flex-col-reverse sm:flex-row items-center gap-6 sm:gap-10 lg:gap-80">
+            <div className="flex flex-col-reverse sm:flex-row items-center gap-6 sm:gap-10 lg:gap-20">
               <h1 className="font-extrabold tracking-tight leading-[0.92] text-5xl sm:text-8xl lg:text-[9rem] break-words text-center sm:text-left">
                 Navneet
                 <br />
@@ -114,9 +114,14 @@ export default function Portfolio() {
           <FadeInSection>
             <div className="grid grid-cols-[1fr_auto] items-center gap-4 sm:gap-6 py-8 border-t border-stone-300">
               <div>
-                <div className="font-extrabold text-2xl sm:text-3xl">
+                <a
+                  href="https://tech-veer.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-extrabold text-2xl sm:text-3xl hover:opacity-60 transition-opacity underline underline-offset-4"
+                >
                   TechVeer
-                </div>
+                </a>
                 <div className="italic font-bold text-base mt-3">
                   Full Stack — Tech News Platform
                 </div>
@@ -136,9 +141,14 @@ export default function Portfolio() {
           <FadeInSection>
             <div className="grid grid-cols-[1fr_auto] items-center gap-4 sm:gap-6 py-8 border-t border-stone-300">
               <div>
-                <div className="font-extrabold text-2xl sm:text-3xl">
+                <a
+                  href="https://event-management-lovat-sigma.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-extrabold text-2xl sm:text-3xl hover:opacity-60 transition-opacity underline underline-offset-4"
+                >
                   Eventora
-                </div>
+                </a>
                 <div className="italic font-bold text-base mt-3">
                   Full Stack — Event Management Platform
                 </div>
@@ -158,9 +168,14 @@ export default function Portfolio() {
           <FadeInSection>
             <div className="grid grid-cols-[1fr_auto] items-center gap-4 sm:gap-6 py-8 border-t border-stone-300">
               <div>
-                <div className="font-extrabold text-2xl sm:text-3xl">
+                <a
+                  href="https://amberoat.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-extrabold text-2xl sm:text-3xl hover:opacity-60 transition-opacity underline underline-offset-4"
+                >
                   Amber &amp; Oat
-                </div>
+                </a>
                 <div className="italic font-bold text-base mt-3">
                   Interactive Web App — Coffee Order Builder
                 </div>
